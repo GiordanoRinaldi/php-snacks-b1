@@ -58,11 +58,11 @@ $posts = [
                 <h2><?php echo $chiave ?></h2>
                 <ul>
                     <?php foreach ($valore as $chiave => $valore ) { ?>
-                        <li>
-                            <h3><?php echo $valore["title"].'<br>'; ?></h3>
-                            <span><strong><?php echo $valore["author"].'<br>'; ?></strong></span>
-                            <p><?php echo $valore["text"].'<br>'; ?></p>
-                        </li>
+                    <li>
+                        <h3><?php echo $valore["title"].'<br>'; ?></h3>
+                        <span><strong><?php echo $valore["author"].'<br>'; ?></strong></span>
+                        <p><?php echo $valore["text"].'<br>'; ?></p>
+                    </li>
                     <?php } ?>
                 </ul>
             </li> 
