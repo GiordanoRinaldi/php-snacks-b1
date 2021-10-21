@@ -14,7 +14,7 @@ $studenti = [
     [
         "nome" => "Lucia",
         "cognome" => "Storti",
-        "voti" => [7,8,1,2,4]
+        "voti" => [8,8,7,8,9,10]
     ],
     [
         "nome" => "Marco",

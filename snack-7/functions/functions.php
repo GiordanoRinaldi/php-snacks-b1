@@ -2,6 +2,6 @@
 
 
 function media($arr){
-    $media = array_sum($arr) / count($arr);
+    $media = round((array_sum($arr) / count($arr)), 1) ;
     return $media;
 };
